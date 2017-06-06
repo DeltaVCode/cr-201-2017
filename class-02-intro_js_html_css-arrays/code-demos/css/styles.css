@@ -1,0 +1,26 @@
+body {
+  background: #999;
+  font-size: 12px;
+  color: purple;
+}
+
+nav {
+  background: yellow;
+  font-size: 20px;
+  color: green;
+}
+
+nav li {
+  color: white;
+}
+
+.nav-list li {
+  font-size: 1.5em;
+}
+
+a, a:visited {
+  color: pink;
+}
+a:hover {
+  color: black;
+}

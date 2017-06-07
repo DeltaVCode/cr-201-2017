@@ -3,13 +3,9 @@
 <a id="top"></a>
 # Today's Plan: Week 1, Wednesday Lecture
 
-##### Quiz 1 will be published after lab today and will be due at 11:59pm tomorrow (Thursday 6/16) night
+##### Quiz 1 has been published and will be due at 11:59pm tonight (Wednesday)
 
 ##### Quiz 2 will be published after lab tomorrow and will be due at 11:59pm Friday night
-
-####Announcements
-
-- Sam and Aaron will be in a meeting during the noon hour, and also 2:30-3:00.
 
 ####Schedule for today
 
@@ -92,8 +88,6 @@ Let's take about 30 minutes to do our first code review session. We're going to 
 [-top-](#top)
 
 ## Git Branches & Lab Prep
-
-[Slides on using branches in Git](slides/git-branching.pdf)
 
 We're going to go over the use of branches in Git and how that integrates into workflow. Up to this point we've been doing everything in the master branch, but from this day forward, you should generally never work in master on your own laptop except in specific use cases.
 

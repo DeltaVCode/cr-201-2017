@@ -3,8 +3,6 @@
 <a id="top"></a>
 # Today's Plan: Week 1, Thursday Lecture
 
-#### Quiz 1 is due at 11:59p tonight (Thursday).
-
 #### Quiz 2 will be published after lab today and will be due tomorrow (Friday) night.
 
 - Announcements
@@ -13,11 +11,11 @@
 
 - [Code Review](#codereview) *[45 minutes]:*
 
-- [CSS box model + layout](#css) *[45 minutes]:*
+- [JS functions](#js) *[45 minutes]:*
 
 *15 minute break*
 
-- [JS functions](#js) *[45 minutes]:*
+- [CSS box model + layout](#css) *[45 minutes]:*
 
 - [Look at the lab assignment, including PAIR PROGRAMMING](#lab) *[45 minutes]:*
 

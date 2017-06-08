@@ -3,9 +3,14 @@
 <a id="top"></a>
 # Today's Plan: Week 1, Thursday Lecture
 
-#### Quiz 2 will be published after lab today and will be due tomorrow (Friday) night.
 
-- Announcements
+#### Announcements
+
+- Head shots @ 1:30
+
+- First 1:1 this afternoon (20 minutes)
+
+- Quiz 2 will be published after lab today and will be due tomorrow (Friday) night.
 
 	- Keep in mind that the quizzes are open-book, so do use the resources you choose to figure out the answers: books, internetz, JS console in your browser, whatever. And remember that the quizzes are preparing you for the 301 entrance exam, which you will take on the last weekend of this class (right before Project Week).
 

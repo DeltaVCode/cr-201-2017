@@ -3,7 +3,7 @@
 <a id="top"></a>
 # Today's Plan: Week 1, Friday Lecture
 
-#### We will start today by going over Quiz 1, which was due last night.
+#### We will start today by going over Quiz 1, which was due Wednesday night.
 
 #### Reminder: Quiz 2 is due at 11:59pm tonight.
 
@@ -13,6 +13,7 @@
 #### Quiz 3 will be published tonight (Friday) and will be due late Sunday night.
 
 - Announcements
+  - 1:1s this afternoon 1-3
 	- **Reminder:** Quizzes are open-book, so use the resources you choose to figure out the answers: books, internetz, JS console in your browser, whatever. And remember that the quizzes are preparing you for the 301 entrance exam, which you will take on the last weekend of this class (right before Project Week).
 	- **Reminder:** Weekly surveys will go out to students in email today. Your survey responses are very helpful and meaningful to us. Feedback is a gift.
 

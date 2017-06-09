@@ -7,7 +7,7 @@
 
 ##### Quiz 2 will be published after lab tomorrow and will be due at 11:59pm Friday night
 
-####Schedule for today
+#### Schedule for today
 
 - [Code Review](#codereview) *[30 minutes]*
 - [JS Control Flow](#control) *[45 minutes]*

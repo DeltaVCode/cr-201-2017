@@ -5,7 +5,7 @@
 
 #### Quiz 1 will be published this afternoon. It will be due at 11:59pm tomorrow night (late Wednesday)
 
-####Class Roadmap for Today
+#### Class Roadmap for Today
 
 - [Topics from HTML readings](#html) *[15 minutes]*
 - [Topics from CSS readings](#css) *[30 minutes]*
@@ -14,7 +14,7 @@
 - [Learning Journal + `git init`](#lj) *[30 minutes]*
 - [Review lab assignment, code demo, `git clone`](#code) *[45 minutes]*
 
-####Announcements:
+#### Announcements:
  - Quiz 1 will be published at the end of lab this afternoon, and it will be due by 11:59pm Wednesday. We will go over it on Thursday. More about quizzes:
  	- Note that there will be some quiz content from time to time that we may not have covered yet for instance something on the quiz published today that we do not cover until tomorrow.
  	- Keep in mind that you have unlimited re-takes on the quizzes, and also that the quizzes are designed to be treated like they are open-book. It's more about what you can figure out than what you have memorized.

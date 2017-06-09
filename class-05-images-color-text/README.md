@@ -7,6 +7,9 @@
 
 #### Reminder: Quiz 2 is due at 11:59pm tonight.
 
+- Question 7 will now accept more options for:
+  > Lastly, you would enter `______` to upload the branch to GitHub.
+
 #### Quiz 3 will be published tonight (Friday) and will be due late Sunday night.
 
 - Announcements

@@ -14,6 +14,9 @@
 - Current score
 
 ```javascript
+var askQuestion = function() {
+  return prompt(this.Text);
+}
 
 var gameModel = {
   Questions: [
@@ -23,12 +26,16 @@ var gameModel = {
       MessageIfCorrect: 'Yep, old as dirt!',
       MessageIfIncorrect: 'You\'re sweet, but no. I\'m old.',
       AllowedAttempts: undefined, // or a number
+
+      AskQuestion: askQuestion,
     },
     {
       Text: 'Where have I lived?',
       Answer: ['ia','wa'],
       MessageIfCorrect: 'That\'s right, I have lived in Iowa and Washington',
       MessageIfIncorrect: 'WRONG',
+
+      AskQuestion: askQuestion
     },
     {
       Text: 'What is my favorite number?',
@@ -36,6 +43,10 @@ var gameModel = {
       MessageIfCorrect: 'Good job!',
       MessageIfIncorrect: 'WRONG', // hint: can this be a function?
       AllowedAttempts: 6,
+
+      AskQuestion: function() {
+        return prompt(this.Text);
+      }
     }
   ],
   UserResponses: [],

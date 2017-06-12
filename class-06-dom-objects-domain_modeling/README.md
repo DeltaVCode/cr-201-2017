@@ -1,9 +1,11 @@
 <a id="top"></a>
 # Today's Plan: Week 2, Monday Lecture
 
-- Announcements
-  - Quiz 2 will be published after class. It will be due at 11:59p tomorrow night.
-- Go over student surveys *[15 minutes]*
+### Announcements
+  - Quiz 4 will be published after class. It will be due at 11:59p tomorrow night.
+  - Summer Challenge starts today!
+### Agenda
+- Retro *[15 minutes]*
 - [Code Review](#codereview) *[30 minutes]*
 - [Go over the assigned readings](#readings) *[60 minutes]*
 - [Code demo](#code) *[75 minutes]*

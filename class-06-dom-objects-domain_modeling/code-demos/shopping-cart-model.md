@@ -1,0 +1,37 @@
+# E-Commerce Shopping Cart
+
+- List of items
+  - Item
+    - Unit Price
+    - Method: calculateSubtotalPrice()
+    - Quantity
+    - Availability
+      - Quantity in stock
+      - Restock date
+      - Location (online, store inventory)
+    - Weight
+    - Shipping Restrictions
+      - Hazardous
+      - Oversized
+      - Limited export
+    - Taxable
+    - Picture
+    - Name
+    - Description
+    - Options
+      - Color?
+      - Size?
+      - Fitted/Unfitted?
+    - Product Number (SKU)
+    - Manufacturer's Part Number
+- Shipping Address
+  - Postal Code
+- Method: getTaxRate()
+- Current Shipping Method
+  - Method: getEstimatedDeliveryDate()
+- Available Shipping Methods
+  - Shipping Method
+    - Name
+    - calculateCost()
+    - isValidForCart(address, items);
+    

@@ -1,24 +1,18 @@
 <a id="top"></a>
 # Today's Plan: Week 2, Tuesday Lecture
 
-- Announcements
-  - Quiz 2 is due at 11:59p tonight.
+# Announcements
+  - We know there is a lot, but do try to keep up in Canvas
+    - Reading
+    - Journal
+    - Career
+  - Quiz 4 is due at 11:59p tonight.
+
+## Agenda
+
 - [Code Review](#codereview) *[30 minutes]*
 - [Go over the assigned readings](#readings) *[60 minutes]*
-- [Code demo](#code) *[90 minutes]*
-
-# Readings
-
-- HTML Chapter 6: "Tables"
-
----
-
-<a id="codereview"></a>
-### Code Review
-
-We'll do code reviews to begin class most days
-
-[-top-](#top)
+- [Constructors](#code) *[90 minutes]*
 
 ---
 
@@ -36,6 +30,6 @@ We'll do code reviews to begin class most days
 <a id="code"></a>
 ### Live code
 
-This code demo is to help students be ready to complete the first assignment, and also to show off some functionality of the REPL and Chrome Developer Tools.
+This code demo is to help students be ready to complete the assignment, and also to show off some functionality of the REPL and Chrome Developer Tools.
 
 [-top-](#top)

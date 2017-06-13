@@ -19,6 +19,10 @@ for (var i = 0; i < stores.length; i++) {
   var store = stores[i];
 
   console.log(store);
+  addStoreRow(storeLocationsTBody, store);
+}
+
+function addStoreRow(container, store) {
   var storeRow = document.createElement('tr');
 
   var storeNameCell = document.createElement('td');
@@ -27,7 +31,7 @@ for (var i = 0; i < stores.length; i++) {
 
   addCellForEachHour(storeRow, store.avgCustomersByHour);
 
-  storeLocationsTBody.appendChild(storeRow);
+  container.appendChild(storeRow);
 }
 
 function addCellForEachHour(row, customersByHour) {

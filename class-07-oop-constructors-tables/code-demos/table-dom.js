@@ -12,14 +12,14 @@ var stores = [
 ];
 console.log(stores);
 
-var storeLocationsTBody = document.getElementById('store-locations');
-console.log(storeLocationsTBody);
+var storeLocationsContainer = document.getElementById('store-locations');
+console.log(storeLocationsContainer);
 
 for (var i = 0; i < stores.length; i++) {
   var store = stores[i];
 
   console.log(store);
-  addStoreRow(storeLocationsTBody, store);
+  addStoreRow(storeLocationsContainer, store);
 }
 
 function addStoreRow(container, store) {
@@ -27,6 +27,7 @@ function addStoreRow(container, store) {
 
   var storeNameCell = document.createElement('td');
   storeNameCell.textContent = store.name;
+  storeNameCell.setAttribute('colspan', 2);
   storeRow.appendChild(storeNameCell);
 
   addCellForEachHour(storeRow, store.avgCustomersByHour);

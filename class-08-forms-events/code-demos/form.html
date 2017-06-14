@@ -3,7 +3,7 @@
   <title>Form Demo</title>
   <link rel="stylesheet" href="formstyles.css"  />
 </head>
-<body>
+<body onload="doOnLoad()">
   <h1>Form Demo Page</h1>
   <form action="https://requestb.in/1ej5fes1" method="POST">
     <fieldset>
@@ -14,7 +14,7 @@
         <input type="text" name="quantity" />
       </label>
     </fieldset>
-    <fieldset>
+    <fieldset id="demo-fieldset">
       <legend>Form Demo Fields</legend>
       <ul>
         <li>
@@ -100,5 +100,6 @@
       </ul>
     </fieldset>
   </form>
+  <script src="events.js"></script>
 </body>
 </html>

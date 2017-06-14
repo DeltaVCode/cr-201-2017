@@ -33,6 +33,8 @@ function CookieStore(name, minCustomerCount, maxCustomerCount, cookiesPerHour, h
   this.cookiesPerHour = cookiesPerHour || 10;
   this.hourToOpen = hourToOpen || this.defaultHourToOpen;
   this.hourToClose = hourToClose || 21;
+
+  this.generateCustomerCountByHour();
 }
 
 CookieStore.prototype.defaultHourToOpen = 6;

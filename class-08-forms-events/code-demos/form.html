@@ -1,0 +1,108 @@
+<html>
+<head>
+  <title>Form Demo</title>
+  <style>
+    label {
+      display: inline-block;
+      padding: 0.5em;
+    }
+  </style>
+</head>
+<body>
+  <h1>Form Demo Page</h1>
+  <form action="https://requestb.in/1ej5fes1" method="POST">
+
+    <fieldset>
+      <legend>Add To Cart</legend>
+
+      <input type="hidden" name="productSku" value="123456"  />
+
+      <label>
+        Quantity: <input type="text" name="quantity" />
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Form Demo Fields</legend>
+      <ul>
+        <li>
+          Text Field: <input type="text" name="textField" />
+        </li>
+        <li>
+          Email: <input type="email" name="textField" placeholder="you@example.com" />
+        </li>
+        <li>
+          Text Area: <textarea name="textArea" rows="8" cols="30"></textarea>
+        </li>
+        <li>
+          Password: <input type="password" name="passwordField" required="required" />
+        </li>
+        <li>
+          Radio Buttons (either/or):
+          <label for="noRadioButton">No Label</label>
+
+          <label>
+            <input type="radio" name="radioButton" value="1" /> Yes
+          </label>
+
+          <input type="radio" name="radioButton" value="0" id="noRadioButton" />
+          <label for="noRadioButton">No</label>
+        </li>
+        <li>
+          Will it rain today?
+          <input type="radio" name="rain" value="1" /> Yes
+          <input type="radio" name="rain" value="0" /> No
+        </li>
+        <li>
+          What weather will we have today?
+          <input type="checkbox" name="weather" value="rain" /> Rain
+          <input type="checkbox" name="weather" value="snow" /> Snow
+          <input type="checkbox" name="weather" value="sun" /> Sun
+          <input type="checkbox" name="weather" value="wind" /> Wind
+        </li>
+        <li>
+          Dropdown list
+          <select name="singleDropDown">
+            <option value="0">
+              Zero
+            </option>
+
+            <optgroup label="Spanish">
+              <option value="1">
+                Uno
+              </option>
+              <option value="2">
+                Dos
+              </option>
+            </optgroup>
+
+            <optGroup label="French">
+              <option value="3">
+                Trois
+              </option>
+            </optGroup>
+          </select>
+        </li>
+        <li>
+          Multi-Select
+          <select multiple="multiple" name="stooges" size="2">
+            <option>
+              Larry
+            </option>
+            <option>
+              Curly
+            </option>
+            <option>
+              Moe
+            </option>
+          </select>
+        </li>
+        <li>
+          Submit button:
+          <input type="submit" value="Save This Stuff" />
+        </li>
+      </ul>
+    </fieldset>
+  </form>
+</body>
+</html>

@@ -2,7 +2,7 @@
 # Today's Plan: Week 2, Wednesday Lecture
 
 - Announcements
-  - Quiz 3 will be published after class. It will be due at 11:59p tomorrow night.
+  - Quiz 5 will be published after class. It will be due at 11:59p tomorrow night.
 - [Code Review](#codereview) *[30 minutes]*
 - [Go over the assigned readings](#readings) *[60 minutes]*
 - [Code demo](#code) *[90 minutes]*
@@ -66,6 +66,6 @@ We'll do code reviews to begin class most days
 <a id="code"></a>
 ### Live code
 
-This code demo is to help students be ready to complete the first assignment, and also to show off some functionality of the REPL and Chrome Developer Tools.
+This code demo is to help students be ready to complete today's assignment, and also to show off some functionality of the REPL and Chrome Developer Tools.
 
 [-top-](#top)

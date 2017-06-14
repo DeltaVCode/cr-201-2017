@@ -1,0 +1,53 @@
+body {
+  font-family: arial, helvetica, sans-serif;
+  color: #666;
+  font-size: 14pt;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  padding: 0 0 30px;
+  border: 0;
+  border-bottom: dotted 2px #ccc;
+}
+
+legend {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.wrapped-label {
+  display: block;
+  margin: 20px 0;
+  font-weight: bold;
+}
+.wrapped-label:last-child {
+  margin-bottom: 0;
+}
+.wrapped-label span,
+.single-label {
+  margin-right: 20px;
+  width: 200px;
+  display: inline-block;
+  font-weight: bold;
+  vertical-align: middle;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  list-style-position: outside;
+}
+li {
+  margin:20px 0;
+}
+input {
+  vertical-align: middle;
+}
+input[type="email"] {
+  background-color: red;
+}
+textarea {
+  vertical-align: top;
+}

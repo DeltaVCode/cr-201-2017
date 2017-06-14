@@ -1,41 +1,37 @@
 <html>
 <head>
   <title>Form Demo</title>
-  <style>
-    label {
-      display: inline-block;
-      padding: 0.5em;
-    }
-  </style>
+  <link rel="stylesheet" href="formstyles.css"  />
 </head>
 <body>
   <h1>Form Demo Page</h1>
   <form action="https://requestb.in/1ej5fes1" method="POST">
-
     <fieldset>
       <legend>Add To Cart</legend>
-
       <input type="hidden" name="productSku" value="123456"  />
-
-      <label>
-        Quantity: <input type="text" name="quantity" />
+      <label class="wrapped-label">
+        <span>Quantity:</span>
+        <input type="text" name="quantity" />
       </label>
     </fieldset>
-
     <fieldset>
       <legend>Form Demo Fields</legend>
       <ul>
         <li>
-          Text Field: <input type="text" name="textField" />
+          <label class="single-label" for="textField">Text Field:</label>
+          <input type="text" name="textField" id="textField" />
         </li>
         <li>
-          Email: <input type="email" name="textField" placeholder="you@example.com" />
+          <label class="single-label" for="email">Email:</label>
+          <input type="email" name="textField" id="email" placeholder="you@example.com" />
         </li>
         <li>
-          Text Area: <textarea name="textArea" rows="8" cols="30"></textarea>
+          <label class="single-label" for="textArea">Text Area:</label>
+          <textarea name="textArea" rows="8" cols="30" id="textArea"></textarea>
         </li>
         <li>
-          Password: <input type="password" name="passwordField" required="required" />
+          <label class="single-label">Password:</label>
+          <input type="password" name="passwordField" required="required" />
         </li>
         <li>
           Radio Buttons (either/or):

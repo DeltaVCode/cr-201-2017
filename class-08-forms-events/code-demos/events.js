@@ -28,10 +28,15 @@ form.addEventListener('submit', formSubmit);
 
 function formSubmit(event) {
   console.log(event);
-
-  // Do interesting stuff
-
   event.preventDefault();
+
+  var textField = document.querySelector('input[name="textField"]');
+  console.log(textField.value);
+
+  var age = document.querySelector('input[name="age"]');
+  console.log(age.value);
+
+  // Do stuff with these values
 }
 
 document.addEventListener('click', function(event){

@@ -45,12 +45,40 @@ console.log(c);
 
 // PUGBOMB!!!!!
 var pugbombButton = document.body.appendChild(document.createElement('button'));
-pugbombButton.addEventListener('click', pugbombButtonHandler('HELLO'));
-pugbombButton.addEventListener('click', pugbombButtonHandler('Second message'));
-pugbombButton.addEventListener('click', pugbombButtonHandler());
+pugbombButton.addEventListener('click', createPugbombButtonHandler('HELLO'));
+pugbombButton.addEventListener('click', createPugbombButtonHandler('Second message'));
+pugbombButton.addEventListener('click', createPugbombButtonHandler());
 
-function pugbombButtonHandler(message) {
-  return function() {
+function createPugbombButtonHandler(message) {
+  return function pugbombButtonHandler() {
+    test1(message);
     console.log(message || 'PUGBOMB!!!!');
   };
+}
+
+function test1(message) {
+  test2(message);
+  if (!message) {
+    console.log('No message...throwing');
+    throw new Error('Message does not exist');
+  }
+}
+function test2(message) {
+  try {
+    test3();
+    console.log('after test3');
+  } catch(error) {
+    console.log('Problem in test3');
+    console.log(error);
+
+    if (message === 'HELLO') {
+      console.log('message was HELLO, so error should be rethrown');
+      throw error;
+    }
+  } finally {
+    console.log('always runs even if error');
+  }
+}
+function test3() {
+  document.body.doesNotExist();
 }

@@ -45,10 +45,7 @@ p {
 /* SIDEBAR */
 aside {
   position: relative;
-  float: left;
-  width: 30%;
   padding: 30px 30px 30px;
-  margin-right: 3%;
   color: #fff;
   background-color: #1abc9c;
   box-sizing: border-box;
@@ -78,15 +75,11 @@ aside {
 }
 
 /* MAIN CONTENT */
-section {
-  float: left;
-  width: 67%;
-}
+
 section article {
   padding: 50px 0 50px 50px;
   margin-bottom: 25px;
   background-color: #fff;
-  box-shadow: 4px 2px 10px 3px rgba(0,0,0,0.35);
   border: solid 1px #ccc;
 }
 .item {
@@ -102,4 +95,52 @@ section h4 {
 }
 section p {
   margin-bottom: 0;
+}
+.responsive-boxes {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.responsive-boxes li {
+  display: block;
+  height: 200px;
+  background-color: skyblue;
+  margin-bottom: 20px;
+}
+@media only screen and (min-width: 900px) {
+  .responsive-boxes {
+    clear: both;
+    overflow: hidden;
+  }
+  .responsive-boxes li {
+    float: left;
+    width: 33%;
+    margin-left: 5%;
+  }
+  .responsive-boxes li:first-child {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .responsive-boxes li {
+    float: left;
+    width: 15%;
+    margin-left: 5%;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  aside {
+    float: left;
+    width: 30%;
+    margin-right: 3%;
+  }
+  section {
+    float: left;
+    width: 67%;
+  }
+  section article {
+    box-shadow: 4px 2px 10px 3px rgba(0,0,0,0.35);
+  }
 }

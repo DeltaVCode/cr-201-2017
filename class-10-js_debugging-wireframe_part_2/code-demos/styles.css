@@ -1,0 +1,105 @@
+/*
+body: #eae8e7;
+med grey: #bdbdbd;
+dark grey: #767270;
+teal: #1abc9c;
+dark teal: #248673;
+*/
+
+body {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #eae8e7;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1300px;
+}
+/* SITE CONSTANTS */
+
+.hero-background h1 {
+  margin: 200px 0 0;
+  font-size: 2em;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.8em;
+}
+h3 {
+  margin: 0;
+  font-size: 1em;
+}
+h4 {
+  margin: 10px 0;
+}
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+p {
+  margin-top: 0;
+  line-height: 1.6em;
+}
+
+/* SIDEBAR */
+aside {
+  position: relative;
+  float: left;
+  width: 30%;
+  padding: 30px 30px 30px;
+  margin-right: 3%;
+  color: #fff;
+  background-color: #1abc9c;
+  box-sizing: border-box;
+}
+
+.hero-background {
+  min-height: 300px;
+  margin: -30px -30px 25px;
+  padding: 30px;
+  background-image: url(https://s8.favim.com/orig/150905/animal-bed-cute-dog-Favim.com-3243978.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero-absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.hero-absolute h1 {
+  margin-top: -100px;
+  margin-left: 30px;
+}
+.hero-absolute h2 {
+  margin-left: 30px;
+}
+
+/* MAIN CONTENT */
+section {
+  float: left;
+  width: 67%;
+}
+section article {
+  padding: 50px 0 50px 50px;
+  margin-bottom: 25px;
+  background-color: #fff;
+  box-shadow: 4px 2px 10px 3px rgba(0,0,0,0.35);
+  border: solid 1px #ccc;
+}
+.item {
+  padding: 25px 50px 25px 0;
+  border-bottom: solid 1px #ccc;
+}
+.item:last-child {
+  padding-bottom: 0;
+  border: 0;
+}
+section h4 {
+  color: #1abc9c;
+}
+section p {
+  margin-bottom: 0;
+}

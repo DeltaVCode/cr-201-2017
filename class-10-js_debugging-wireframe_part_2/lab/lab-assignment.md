@@ -1,4 +1,4 @@
-# Paired lab: Friday, 19 Feb 2016
+# Paired lab: Friday, Day 10
 ## Create a webpage from a provided design comp
 
 In lab today you will be building a single webpage based off of the provided design comp assets. This assignment is a lot of HTML and CSS, and not as much JS as we've been doing this week. In fact, you may choose to do this project with no JS at all, or just add some as a finishing touch.
@@ -37,9 +37,3 @@ Use good HTML structure to scaffold this site. Up to this point, your sites have
 Use CSS to style the page to reflect the full comp image provided. Use what knowledge you have at this point (and any resources you are able to understand and use effectively from other sources) to style your site as closely to the design comp as you can. You have the resources and are aware of online tools which will help you find useful solutions! ***There's some pieces of this that will be new to you... use your combined brainpower to find a solution.*** On a project like this, something that finishes the basic task is the goal... it can always be refactored with better design and code later. There are no right or wrong answers... just do your best.
 
 OPTIONAL: Add some JavaScript functionality! Get creative, but make sure the style is complete before moving onto any additional features.
-
----
-
-**Submit your work:**
-
-Use the link in Canvas at [https://canvas.instructure.com/courses/996678/assignments/4433196]() to submit your work.

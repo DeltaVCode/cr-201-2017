@@ -1,22 +1,69 @@
+var products = [
+  {
+    name: 'Funny Lamp',
+    clicks: 17,
+    impressions: 50
+  },
+  {
+    name: 'Funny Hat',
+    clicks: 0,
+    impressions: 25
+  },
+  {
+    name: 'Watering Can',
+    clicks: 12,
+    impressions: 90
+  },
+  {
+    name: 'Talking Fish',
+    clicks: 25,
+    impressions: 30
+  }
+];
+
+var productNames = products.map(function(product) {
+  return product.name;
+});
+var productClicks = products.map(function(product) {
+  return product.clicks;
+});
+var productImpressions = products.map(function(product) {
+  return product.impressions;
+});
+console.log(productNames);
+console.log(productClicks);
+
 // Line Chart representing buyers
 
 var buyerData = {
-  labels: ['Jan', 'Feb', 'Feb2', 'Feb3'],
+  labels: productNames,
   datasets: [
     {
+      label: 'Clicks',
       fillColor: 'rgba(0,0,0,0.4)',
       strokeColor: '#333',
       pointColor:'#ab3434',
       pointStrokeColor: '#ab3434',
-      data: [50, 100, 75, 150]
+      data: productClicks
+    },
+    {
+      label: 'Impresions',
+      data: productImpressions,
     }
   ]
 };
 
-var buyers = document.getElementById('buyers').getContext('2d');
-new Chart(buyers, {
+var buyerCanvas = document.getElementById('buyers').getContext('2d');
+new Chart(buyerCanvas, {
   data: buyerData,
-  type: 'line'
+  options: {
+    scales: {
+      xAxes: [{
+        stacked: true
+      }]
+    }
+  },
+  type: 'bar'
 });
 
 // Pie Chart representing countries

@@ -1,0 +1,12 @@
+body {
+  background-color: #ccc;
+  font-size: 2em;
+  font-family: sans-serif;
+}
+.container {
+  padding: 20px;
+}
+.restrict-size {
+  max-width: 500px;
+  max-height: 500px;
+}

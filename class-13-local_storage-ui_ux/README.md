@@ -2,13 +2,13 @@
 # Today's Plan: Week 3, Wednesday Lecture
 
 - Announcements
-  - Quiz 5 is due at 11:59p tonight.
+  - Quiz 8 is due at 11:59p tonight.
   - Project Week is getting closer!
   - TOMORROW: First round of project pitches
   - Friday: Second round of project pitches & set project teams
-- [Code Review](#codereview) *[30 minutes]*
+- [Code Review](#codereview) *[60 minutes]*
 - [Go over the assigned readings](#readings) *[60 minutes]*
-- [Code demo](#code) *[90 minutes]*
+- [Code demo](#code) *[60 minutes]*
 
 # Readings
 

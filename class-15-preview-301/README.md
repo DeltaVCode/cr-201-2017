@@ -4,7 +4,7 @@
 - Announcements?
   - Reminder: weekly surveys will go out to students today
 - [Code Review](#codereview) *[60 minutes]*
-- [jQuery Preview](#jquery) *[30 minutes]*
+- [Git](#git) *[30 minutes]*
 - [Project Pitches](#pitches) *[30 minutes]*
 - [Final Project Overview](#project) *[60 minutes]*
 
@@ -23,10 +23,18 @@ We'll do code reviews to begin class most days
 
 ---
 
-<a id="jquery"></a>
-### jQuery Preview
+<a id="git"></a>
+### Git
 
-Do a short overview of the basics of jQuery and direct students to online resources
+Review Git in more depth
+
+- Config
+- Stage/Commit
+- Unstage/Discard
+- Push/Fetch
+- Merge/Rebase
+- [Git More Done](https://vimeo.com/43659036)
+
 [-top-](#top)
 
 ---
@@ -34,7 +42,12 @@ Do a short overview of the basics of jQuery and direct students to online resour
 <a id="pitches"></a>
 ### Project Pitches
 
-(make a list of pitched projects here)
+- Workforce Management (WFM) *@bbeeksma*
+- RPG Character Sheet *@nerdbetter*
+- Delta Burger *@thecforsythe*
+- Hotel Room Picker *@dustinyschild*
+- Pre-apocalyptic E-commerce *@bytemibro*
+- Hot or Not for Custom Computers *@meepedy*
 
 [-top-](#top)
 
@@ -45,6 +58,6 @@ Do a short overview of the basics of jQuery and direct students to online resour
 
 - Go over the final project description
 - Discuss GitHub workflow in teams
-- GitHub Issues, Trello, waffle.io
+- GitHub Issues, Projects
 
 [-top-](#top)

@@ -4,10 +4,11 @@
 ## Announcements
 
 - You made it! Congratulations!
+- Half of you forgot journal/report. Reopened until noon.
 - Presentations today at **2:00 PM** in the café
 - Hard deadline for resubmission: **July 5th, 8:00 AM**
 
-**No new feature work tomorrow. Code cleanup and presentation prep only.**
+**No new feature work today. Code cleanup and presentation prep only.**
 
 ## Presentation Prep
 
